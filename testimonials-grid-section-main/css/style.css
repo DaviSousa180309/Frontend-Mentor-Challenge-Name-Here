@@ -1,0 +1,162 @@
+body {
+    background-color: hsl(210, 46%, 95%);
+    height: 100vh;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    Font-size: 13px;
+    width: 90%;
+}
+
+.container-00001 {
+    display: flex;
+    justify-content: center;
+}
+
+article {
+    border-radius: 12px;
+    margin: 20px;
+    padding: 30px;
+}
+
+h4 {
+    opacity: 50%;
+    padding-top: 5px;
+}
+
+h1 {
+    padding-top: 20px;
+    line-height: 25px;
+}
+
+p {
+    opacity: 70%;
+    padding-top: 30px;
+    line-height: 20px;
+}
+
+.bloco01 {
+    background-color: hsl(263, 55%, 52%);
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.bloco02 {
+    background-color: hsl(217, 19%, 35%);
+    color: hsl(0, 0%, 100%);
+}
+
+.bloco03 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+
+.bloco04 {
+    background-color: hsl(219, 29%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+
+.bloco05 {
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+    width: 650px;
+}
+
+.bloco-div {
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px;
+    border-style: solid;
+    border-color: hsl(0, 0%, 81%);
+    width: 32px;
+}
+
+.bloco01-div-hgrop {
+    margin-left: 15px;
+}
+
+.container-primaria {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.container-sec {
+    display: flex;
+}
+
+@media (max-width: 1090px) {
+    .container {
+        Font-size: 10px;
+    }
+    
+    article {
+        border-radius: 12px;
+        margin: 13px;
+        padding: 20px;
+    }
+    
+    h4 {
+        padding-top: 2px;
+    }
+    
+    h1 {
+        padding-top: 13px;
+        line-height: 20px;
+    }
+    
+    p {
+        padding-top: 20px;
+        line-height: 15px;
+    }
+
+    img {
+        width: 28px;
+    }
+    
+    .bloco01-div-hgrop {
+        margin-left: 10px;
+    }
+}
+    
+@media (max-width: 430px) {
+    .container {
+        margin-top: 670px;
+    }
+
+    article {
+        margin: 8px;
+    }
+
+    .bloco05 {
+        width: 83%;
+    }
+
+    .container-00001 {
+        display: block;
+    }
+
+    .container-primaria {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-sec {
+        flex-direction: column;
+        display: flex;
+    }
+
+}
